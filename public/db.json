@@ -1,0 +1,51 @@
+[
+    {
+        "id": "011a",
+        "title": "Running",
+        "img": "https://pixabay.com/photos/jogging-run-sport-jog-sporty-race-2343558/",
+        "description": "Running is very good for health",
+        "duration": "40 min"
+    },
+    {
+        "id": "011b",
+        "title": "Walking",
+        "img": "https://pixabay.com/photos/woman-girl-walken-to-go-for-a-walk-2827317/",
+        "description": "Walking in every morning should be your first job",
+        "duration": "60 min"
+    },
+    {
+        "id": "021a",
+        "title": "Swimming",
+        "img": "https://pixabay.com/photos/boys-swimming-pools-blue-clear-286209/",
+        "description": "Swimming is very good for health",
+        "duration": "45 min"
+    },
+    {
+        "id": "021b",
+        "title": "Cycling",
+        "img": "https://pixabay.com/photos/motion-blur-cycling-bike-race-1281675/",
+        "description": "Running is a physical and mental refreshment",
+        "duration": "50 min"
+    },
+    {
+        "id": "032a",
+        "title": "Rope skipping",
+        "img": "https://pixabay.com/photos/skipping-rope-sports-game-tool-1443645/",
+        "description": "Everyone can enjoy rope skipping.",
+        "duration": "30 min"
+    },
+    {
+        "id": "032b",
+        "title": "Push up",
+        "img": "https://pixabay.com/photos/sport-fitness-exercise-pilates-1686064/",
+        "description": "Push up in every morning should be your first job",
+        "duration": "10 min"
+    },
+    {
+        "id": "041a",
+        "title": "Yoga",
+        "img": "https://pixabay.com/photos/meditate-woman-yoga-zen-meditating-1851165/",
+        "description": "Yoga is very beneficial for body and mind",
+        "duration": "20 min"
+    }
+]
