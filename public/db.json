@@ -2,49 +2,50 @@
     {
         "id": "011a",
         "title": "Running",
-        "img": "https://pixabay.com/photos/jogging-run-sport-jog-sporty-race-2343558/",
+        "img": "https://cdn.pixabay.com/photo/2017/05/25/15/08/jogging-2343558_960_720.jpg",
         "description": "Running is very good for health",
         "duration": "40 min"
+        
     },
     {
         "id": "011b",
         "title": "Walking",
-        "img": "https://pixabay.com/photos/woman-girl-walken-to-go-for-a-walk-2827317/",
+        "img": "https://cdn.pixabay.com/photo/2017/10/07/17/43/woman-2827317_960_720.jpg",
         "description": "Walking in every morning should be your first job",
         "duration": "60 min"
     },
     {
         "id": "021a",
         "title": "Swimming",
-        "img": "https://pixabay.com/photos/boys-swimming-pools-blue-clear-286209/",
+        "img": "https://cdn.pixabay.com/photo/2014/03/12/18/24/boys-286209_960_720.jpg",
         "description": "Swimming is very good for health",
         "duration": "45 min"
     },
     {
         "id": "021b",
         "title": "Cycling",
-        "img": "https://pixabay.com/photos/motion-blur-cycling-bike-race-1281675/",
+        "img": "https://cdn.pixabay.com/photo/2016/03/26/22/47/motion-blur-1281675_960_720.jpg",
         "description": "Running is a physical and mental refreshment",
         "duration": "50 min"
     },
     {
         "id": "032a",
         "title": "Rope skipping",
-        "img": "https://pixabay.com/photos/skipping-rope-sports-game-tool-1443645/",
+        "img": "https://cdn.pixabay.com/photo/2016/06/08/11/15/jump-rope-1443645_960_720.jpg",
         "description": "Everyone can enjoy rope skipping.",
         "duration": "30 min"
     },
     {
         "id": "032b",
         "title": "Push up",
-        "img": "https://pixabay.com/photos/sport-fitness-exercise-pilates-1686064/",
+        "img": "https://cdn.pixabay.com/photo/2016/09/21/23/59/sport-1686064_960_720.jpg",
         "description": "Push up in every morning should be your first job",
         "duration": "10 min"
     },
     {
         "id": "041a",
         "title": "Yoga",
-        "img": "https://pixabay.com/photos/meditate-woman-yoga-zen-meditating-1851165/",
+        "img": "https://cdn.pixabay.com/photo/2016/11/22/23/29/meditate-1851165_960_720.jpg",
         "description": "Yoga is very beneficial for body and mind",
         "duration": "20 min"
     }
