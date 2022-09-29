@@ -1,8 +1,8 @@
 import React from 'react';
 
 const SingleActivity = (props) => {
-    console.log(props)
 
+   const addToList = props.addToList;
     const { title, img, description , duration } = props.activity;
     return (
         <div>
@@ -10,10 +10,10 @@ const SingleActivity = (props) => {
                 <figure><img src={img} alt="activity" /></figure>
                 <div className="card-body">
                     <h2 className="card-title">{title}</h2>
-                    <p>{description}</p>
+                    <p className ="">{description}</p>
                     <p>Duration: {duration}</p>
                     <div className="card-actions justify-end">
-                        <button className="btn btn-primary">Buy Now</button>
+                        <button className="btn btn-primary" onClick={()=>{addToList(duration)}}>Add to List</button>
                     </div>
                 </div>
             </div>
