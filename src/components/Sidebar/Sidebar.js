@@ -1,22 +1,23 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Myinfo from '../myinfo/Myinfo';
 
 const Sidebar = (props) => {
 
     const duration = props.duration;    
-    
-    const savedBreakTime = localStorage.getItem('breaktime');
-    let t = 0
-    if(savedBreakTime){
-        t= JSON.parse(savedBreakTime);
-    }else{
-        t = 0;
-    }
-    const [breakTime, setBreakTime] = useState(t);
+    //let t = 0;
+    const [breakTime, setBreakTime] = useState(0);
+
     const getValue = (value) =>{
-        setBreakTime(value);
+        setBreakTime(value);  
         localStorage.setItem('breaktime', JSON.stringify(value));
     }
+
+    useEffect(()=>{
+         const savedBreakTime = localStorage.getItem('breaktime');
+         if(savedBreakTime){
+            setBreakTime(savedBreakTime);
+         }
+    },[])
 
     return (
         <div className=''>
