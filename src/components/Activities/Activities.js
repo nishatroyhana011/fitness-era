@@ -13,9 +13,10 @@ const Activities = () => {
             .then(data => setActivities(data))
     }, [])
 
-    let totalDuration = duration;
-    const addToList = (duration) => {
-        let time = parseInt(duration);
+    
+    const addToList = (activityDuration) => {
+        let time = parseInt(activityDuration);
+        let totalDuration = duration;
         totalDuration = totalDuration + time;
       
         setDuration(totalDuration);
@@ -33,7 +34,7 @@ const Activities = () => {
             </div>
 
 
-            <div>
+            <div className='mx-10'>
                 <Sidebar duration={duration}></Sidebar>
             </div>
         </div>

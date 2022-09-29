@@ -1,12 +1,12 @@
 import React from 'react';
 
 const Sidebar = (props) => {
-    console.log(props)
-   // const duration = props.duration;
+   
+    const duration = props.duration;
     return (
-        <div>
-            <p>I am sidebar</p>
-           
+        <div className=''>
+            <p className='text-teal-500 font-semibold text-xl my-5'>Exercise Details</p>
+            <p className='bg-slate-100 p-5 rounded-lg'>Total Duration: {duration} Minutes</p>
         </div>
     );
 };
