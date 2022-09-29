@@ -13,7 +13,6 @@ const Activities = () => {
             .then(data => setActivities(data))
     }, [])
 
-    
     const addToList = (activityDuration) => {
         let time = parseInt(activityDuration);
         let totalDuration = duration;
