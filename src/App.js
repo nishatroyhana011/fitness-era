@@ -1,6 +1,7 @@
 
 import './App.css';
 import Activities from './components/Activities/Activities';
+import Questions from './components/Questions/questions';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
             <p className='text-teal-800 font-semibold text-3xl my-8'>Fitness Era</p>
       </div>
       <Activities></Activities>
+      <Questions></Questions>
     </div>
   );
 }
