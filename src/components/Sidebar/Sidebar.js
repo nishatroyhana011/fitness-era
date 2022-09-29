@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Completed from '../completed-button/Completed';
 import Myinfo from '../myinfo/Myinfo';
 
 const Sidebar = (props) => {
@@ -35,7 +36,7 @@ const Sidebar = (props) => {
             <br />
             <p className='bg-slate-100 p-5 rounded-lg'>Break Time: {breakTime} Minutes</p>
             <br />
-            <button className="btn btn-accent btn-block">Activity Completed</button>
+            <Completed></Completed>
             </div>
         </div>
     );
