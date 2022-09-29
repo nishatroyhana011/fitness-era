@@ -13,7 +13,7 @@ const SingleActivity = (props) => {
                     <p className ="">{description}</p>
                     <p>Duration: {duration}</p>
                     <div className="card-actions justify-end">
-                        <button className="btn btn-primary" onClick={()=>{addToList(duration)}}>Add to List</button>
+                        <button className="btn btn-accent" onClick={()=>{addToList(duration)}}>Add to List</button>
                     </div>
                 </div>
             </div>
