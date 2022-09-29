@@ -4,10 +4,18 @@ import Myinfo from '../myinfo/Myinfo';
 const Sidebar = (props) => {
 
     const duration = props.duration;    
-
-    const [breakTime, setBreakTime] = useState(0);
+    
+    const savedBreakTime = localStorage.getItem('breaktime');
+    let t = 0
+    if(savedBreakTime){
+        t= JSON.parse(savedBreakTime);
+    }else{
+        t = 0;
+    }
+    const [breakTime, setBreakTime] = useState(t);
     const getValue = (value) =>{
         setBreakTime(value);
+        localStorage.setItem('breaktime', JSON.stringify(value));
     }
 
     return (
