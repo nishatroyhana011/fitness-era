@@ -23,18 +23,16 @@ const Activities = () => {
     }
 
     return (
-        <div className='grid grid-cols-3'>
-            <div className='grid grid-cols-1 col-span-2 gap-4 ml-10'>
-                <p className='text-teal-600 font-semibold text-xl my-5 mx-10'>Select today's exercise</p>
-                <div className='grid grid-cols-2'>
+        <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3'>
+            <div className='grid order-2 lg:col-span-2 lg:order-1 px-0'>
+                <p className='text-teal-600 font-semibold text-xl my-5'>Select today's exercise</p>
+                <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
                     {
                         activities.map(activity => <SingleActivity key={activity.id} activity={activity} addToList={addToList}></SingleActivity>)
                     }
                 </div>
             </div>
-
-
-            <div className='mr-10'>
+            <div className='order-1 lg:order-2'>
                 <Sidebar duration={duration}></Sidebar>
             </div>
         </div>

@@ -6,7 +6,7 @@ const SingleActivity = (props) => {
     const { title, img, description , duration } = props.activity;
     return (
         <div>
-            <div className="card w-10/12 bg-base-100 shadow-xl">
+            <div className="card w-10/12 bg-base-100 shadow-xl mx-auto">
                 <figure><img src={img} alt="activity" /></figure>
                 <div className="card-body">
                     <h2 className="card-title">{title}</h2>
